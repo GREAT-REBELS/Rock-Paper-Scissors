@@ -1,0 +1,62 @@
+body 
+{
+  background-color: rgb(25,25,25);
+  color: white;
+  font-family: sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+.title
+{
+  font-size: 30px;
+  text-align: center;
+  margin: 80px;
+  font-weight:bold;
+}
+.Icon
+{
+    height: 50px;
+    background-color: transparent;
+}
+.move
+{
+    background-color: white;
+    border:3px dashed black ;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.reset-score:hover
+{
+  background-color: rgb(202, 198, 198);
+}
+
+div .move{
+  margin: 0 30px;
+
+}
+.score-board{
+  margin: 30px auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+.reset-btn{
+  color: white;
+  background-color: green;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.reset-btn:hover{
+  background-color: rgb(37, 141, 37);
+}
